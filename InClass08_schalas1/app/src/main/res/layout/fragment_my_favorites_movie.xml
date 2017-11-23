@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chala.inclass08_schalas1.MyFavoritesMovie">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container">
+
+        <Button
+            android:text="Add Movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="94dp"
+            android:id="@+id/add" />
+
+        <Button
+            android:text="Edit Movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:id="@+id/edit"
+            android:layout_below="@+id/add"
+            android:layout_alignLeft="@+id/add"
+            android:layout_alignStart="@+id/add" />
+
+        <Button
+            android:text="Delete Movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete"
+            android:layout_below="@+id/edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="Show List by Year"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/year"
+            android:layout_below="@+id/delete"
+            android:layout_alignLeft="@+id/delete"
+            android:layout_alignStart="@+id/delete" />
+
+        <Button
+            android:text="Show List by Rating"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/rating"
+            android:layout_below="@+id/year"
+            android:layout_alignLeft="@+id/year"
+            android:layout_alignStart="@+id/year" />
+    </RelativeLayout>
+</FrameLayout>

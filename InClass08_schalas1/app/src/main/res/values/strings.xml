@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">InClass08_schalas1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_lable_add">Add Movie</string>
+    <string name="Button_Edit">Edit</string>
+    <string name="Button_delete">Delete Movie</string>
+    <string name="Button_year">Show List by Year</string>
+    <string name="show_list_label">Show List By Rating</string>
+    <string name="name_label">Name:</string>
+    <string name="descr_label">Description:</string>
+    <string name="genre_l">Genre:</string>
+    <string name="rating_l">Rating:</string>
+    <string name="year_l">Year:</string>
+    <string name="imdb_l">IMDB:</string>
+    <string name="name_ed_l" />
+    <string name="descr_ed_l" />
+    <string name="genre_ed_l" />
+    <string name="rating_ed_l" />
+    <string name="year_ed_l" />
+    <string name="imdb_ed_l" />
+    <string name="add_movie_button">Add movie</string>
+    <string name="edit_button">Save Changes</string>
+    <string name="movie_by_year_label">Movies by year</string>
+    <string name="title_sy_label">Title:</string>
+    <string name="title_sy_value" />
+    <string name="genre_sy_value" />
+    <string name="description_sy_value" />
+    <string name="rating_sy_value" />
+    <string name="year_sy_value" />
+    <string name="imdb_sy_value" />
+    <string name="finish_value">Finish</string>
+    <string name="movie_rating_label">Movies By Rating</string>
+    <string name="title_sr_value" />
+    <string name="description_sr_value" />
+    <string name="genre_sr_value" />
+    <string name="rating_sr_value" />
+    <string name="year_sr_value" />
+    <string name="imdb_sr_value" />
+
+    <string-array name="genre">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>
